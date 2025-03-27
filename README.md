@@ -23,6 +23,6 @@ The Meetup App is a MERN stack (MongoDB, Express, React, Node.js) application de
 
 2): Online/Offline Filters – Users can filter events by online (virtual) or offline (in-person) meetups.
 
-3): Search Functionality – A search bar allows users to find events by keywords (title, location, or description).
+3): Search Functionality – A search bar allows users to find events by keywords (title).
 
 4): Event Details Page – Clicking an event opens a dedicated page with full details (date, time, location, description, organizer info)
