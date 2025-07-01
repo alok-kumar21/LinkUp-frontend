@@ -52,28 +52,22 @@ npm run dev
 
 **Event Details**
 
-- Clicking an event opens a dedicated page with full details (date, time, location, description, organizer info)
+- Clicking an event opens a dedicated page with full details (date, time, location, description, organiser info)
 
 ## API Reference
 
 ### **GET /events**<br>
 
-s
 List all Events<br>
 Sample Response:<br>
-`[{ _id, name, description, ... }, …]`
+`[{id: ObjectId(67caca659c47b951a156ff4a)title: "Marketing Seminar", details: "It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,"... }]`
 
 ### **GET /events/title/:titleName**<br>
 
 Get details for one Product<br>
 Sample Response:<br>
-`{ _id, name, description, images}`
+`[{id: ObjectId(67caca659c47b951a156ff4a)title: "Marketing Seminar", details: "It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,"... }]`
 
-### **POST /events**<br>
-
-Create a new recipe (protected)<br>
-Sample Response:<br>
-`{ _id, title, name, ... }`
 
 ## Contact
 
