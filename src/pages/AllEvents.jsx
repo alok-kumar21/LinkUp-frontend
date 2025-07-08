@@ -34,7 +34,7 @@ const AllEvents = () => {
         <div className="container mb-5">
           <div className="row">
             <div className="col-md-4 text-start text-center">
-              <h2>Meetup Events</h2>
+              <h2 className="">Linkup Events</h2>
             </div>
             <div className="col-md-4 text-center my-2">
               <div class="dropdown">

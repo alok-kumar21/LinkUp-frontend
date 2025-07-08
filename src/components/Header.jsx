@@ -1,5 +1,6 @@
 import "./Header.css";
-import { useState } from "react";
+
+import logo2 from "../assets/logo2.png";
 
 import { Link } from "react-router-dom";
 const Header = () => {
@@ -9,12 +10,8 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-md">
-              <Link to="/">
-                <img
-                  src="https://cdn.freebiesupply.com/logos/thumbs/2x/meetup-1-logo.png"
-                  alt="meetup image"
-                  className="img-fluid logo "
-                />
+              <Link className="text-decoration-none" to="/">
+                <h1 className="logo  text-danger mt-3">LinkUp</h1>
               </Link>
             </div>
           </div>
