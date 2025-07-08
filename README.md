@@ -8,7 +8,7 @@ Built with a **React** frontend, **Node.js/Express** backend, **MongoDB** databa
 
 ## Demo Link
 
-[Live Demo](https://meet-up-frontend-chi.vercel.app/)
+[Live Demo](https://link-up-frontend-kohl.vercel.app/)
 
 ---
 
@@ -34,7 +34,6 @@ npm run dev
 ## Demo Video
 
 [Loom Video Link](https://www.loom.com/share/d923cc677f254ace9bd56503a1e4124d?sid=2b4e2f05-80c6-4e18-8b80-d8cfc056c7f6)
-
 
 ## Features
 
@@ -67,7 +66,6 @@ Sample Response:<br>
 Get details for one Product<br>
 Sample Response:<br>
 `[{id: ObjectId(67caca659c47b951a156ff4a)title: "Marketing Seminar", details: "It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,"... }]`
-
 
 ## Contact
 
