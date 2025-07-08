@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 const EventDetails = () => {
   const { data, loading, error } = useFetch(
-    "https://meet-up-backend-pi.vercel.app/events"
+    "https://link-up-backend-0.vercel.app/events"
   );
   const eventId = useParams();
   const eventDetail = data?.find((event) => eventId.eventId === event._id);

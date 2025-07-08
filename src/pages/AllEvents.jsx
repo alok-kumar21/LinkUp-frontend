@@ -8,8 +8,8 @@ const AllEvents = () => {
 
   const { data, loading, error } = useFetch(
     title
-      ? `https://meet-up-backend-pi.vercel.app/events/title/${title}`
-      : `https://meet-up-backend-pi.vercel.app/events`
+      ? `https://link-up-backend-0.vercel.app/events/title/${title}`
+      : `https://link-up-backend-0.vercel.app/events`
   );
 
   // handle search event
